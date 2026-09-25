@@ -2,6 +2,24 @@
 
 A responsive movie discovery app built with React 19, Vite, JavaScript, and React Router. A charcoal-and-lime visual identity, cinematic artwork, and a personal watchlist make it easy to find your next great watch.
 
+## Live demo
+
+**[Open Movie Portal](https://movie-portal-gamma.vercel.app/)**
+
+## Screenshots
+
+### Discover movies
+
+![Movie Portal Discover page](./Screenshot%202026-09-25%20211103.png)
+
+### Movie details
+
+![Movie Portal Movie Details page](./Screenshot%202026-09-25%20211139.png)
+
+### Watchlist
+
+![Movie Portal Watchlist page](./Screenshot%202026-09-25%20211200.png)
+
 ## Run locally
 
 Use Node.js 22.12+ (or 20.19+).
@@ -20,7 +38,7 @@ npm run build
 npm run preview
 ```
 
-On Windows, if a stale npm shim reports a missing `npm-cli.js`, repair the Node installation or use the working bundled command: `& 'C:\Program Files\nodejs\npm.cmd' run dev` in PowerShell.
+On Windows, if a stale npm shim reports a missing `npm-cli.js`, repair the Node installation or use the working bundled command: `& 'C:\\Program Files\\nodejs\\npm.cmd' run dev` in PowerShell.
 
 ## Live movie data
 
@@ -62,7 +80,9 @@ The existing React/Vite/JavaScript stack and React Router dependency are retaine
 
 ## Deployment
 
-Build with `npm run build` and serve `dist`. Configure the host to rewrite unknown paths to `index.html` so direct links and page refreshes work with BrowserRouter. For subdirectory hosting, configure both Vite’s `base` and the router’s `basename`. Deployment is not configured by this change.
+The app is deployed on Vercel: **https://movie-portal-gamma.vercel.app/**
+
+For another deployment, build with `npm run build` and serve `dist`. Configure the host to rewrite unknown paths to `index.html` so direct links and page refreshes work with BrowserRouter. For subdirectory hosting, configure both Vite’s `base` and the router’s `basename`.
 
 ## Data and attribution
 
